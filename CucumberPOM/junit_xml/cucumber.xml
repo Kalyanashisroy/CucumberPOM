@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.320402">
+<testcase classname="Free CRM Application Test" name="Validate Free CRM Home Page Test" time="8.320402">
+<failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'&#10;System info: host: 'KALYAN', ip: '192.168.43.25', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x003D9443+2724931]&#10;&#9;Ordinal0 [0x002D8421+1672225]&#10;&#9;Ordinal0 [0x001C0339+525113]&#10;&#9;Ordinal0 [0x00150B77+68471]&#10;&#9;Ordinal0 [0x0014D32C+54060]&#10;&#9;Ordinal0 [0x0016CC37+183351]&#10;&#9;Ordinal0 [0x0016CA3D+182845]&#10;&#9;Ordinal0 [0x0016A94B+174411]&#10;&#9;Ordinal0 [0x00152528+75048]&#10;&#9;Ordinal0 [0x001535A0+79264]&#10;&#9;Ordinal0 [0x00153539+79161]&#10;&#9;Ordinal0 [0x002ED4D7+1758423]&#10;&#9;GetHandleVerifier [0x004F5D96+1050070]&#10;&#9;GetHandleVerifier [0x004F5AE1+1049377]&#10;&#9;GetHandleVerifier [0x00500927+1093991]&#10;&#9;GetHandleVerifier [0x004F6396+1051606]&#10;&#9;Ordinal0 [0x002E59D6+1726934]&#10;&#9;Ordinal0 [0x002EEA4B+1763915]&#10;&#9;Ordinal0 [0x002EEBB3+1764275]&#10;&#9;Ordinal0 [0x00304AD5+1854165]&#10;&#9;BaseThreadInitThunk [0x75517C04+36]&#10;&#9;RtlInitializeExceptionChain [0x777AAD2F+143]&#10;&#9;RtlInitializeExceptionChain [0x777AACFA+90]&#10;&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)&#13;&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:138)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:178)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:167)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:124)&#13;&#10;&#9;at util.TestBase.initialization(TestBase.java:30)&#13;&#10;&#9;at stepDefinitions.HomePageSteps.user_opens_browser(HomePageSteps.java:11)&#13;&#10;&#9;at ✽.Given user opens browser(D:/Workspace/CucumberPOM/src/main/java/features/freecrm.feature:5)&#13;&#10;"><![CDATA[Given user opens browser....................................................failed
+Then user is on login page..................................................skipped
+Then user enters username and password......................................skipped
+Then user click on login button.............................................skipped
+Then home is displayed......................................................skipped
+Then validate home page title...............................................skipped
+Then validate logged in username............................................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'KALYAN', ip: '192.168.43.25', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x003D9443+2724931]
+	Ordinal0 [0x002D8421+1672225]
+	Ordinal0 [0x001C0339+525113]
+	Ordinal0 [0x00150B77+68471]
+	Ordinal0 [0x0014D32C+54060]
+	Ordinal0 [0x0016CC37+183351]
+	Ordinal0 [0x0016CA3D+182845]
+	Ordinal0 [0x0016A94B+174411]
+	Ordinal0 [0x00152528+75048]
+	Ordinal0 [0x001535A0+79264]
+	Ordinal0 [0x00153539+79161]
+	Ordinal0 [0x002ED4D7+1758423]
+	GetHandleVerifier [0x004F5D96+1050070]
+	GetHandleVerifier [0x004F5AE1+1049377]
+	GetHandleVerifier [0x00500927+1093991]
+	GetHandleVerifier [0x004F6396+1051606]
+	Ordinal0 [0x002E59D6+1726934]
+	Ordinal0 [0x002EEA4B+1763915]
+	Ordinal0 [0x002EEBB3+1764275]
+	Ordinal0 [0x00304AD5+1854165]
+	BaseThreadInitThunk [0x75517C04+36]
+	RtlInitializeExceptionChain [0x777AAD2F+143]
+	RtlInitializeExceptionChain [0x777AACFA+90]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:138)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:178)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:167)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:124)
+	at util.TestBase.initialization(TestBase.java:30)
+	at stepDefinitions.HomePageSteps.user_opens_browser(HomePageSteps.java:11)
+	at ✽.Given user opens browser(D:/Workspace/CucumberPOM/src/main/java/features/freecrm.feature:5)
+]]></failure>
+</testcase>
+</testsuite>
